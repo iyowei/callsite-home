@@ -1,0 +1,38 @@
+{
+  "name": "@iyowei/callsite-home",
+  "version": "1.0.0",
+  "description": "异步获取指定 Git 项目远程仓库地址。",
+  "main": "callsiteHome.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyowei/callsite-home.git"
+  },
+  "keywords": [
+    "iyowei"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iyowei/callsite-home/issues"
+  },
+  "homepage": "https://github.com/iyowei/callsite-home#readme",
+  "type": "module",
+  "exports": "./callsiteHome.js",
+  "files": [
+    "callsiteHome.js"
+  ],
+  "engines": {
+    "node": ">=12.20.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "callsites": "^4.0.0",
+    "is-scoped": "^3.0.0",
+    "read-pkg-up": "^9.0.0"
+  }
+}
